@@ -1,0 +1,2 @@
+docker run -p 8000:8080 -p 50000:50000 -v jenkins:/var/jenkins_home -u root jenkins/jenkins
+# Please create volume jenkins in your Docker Host first
